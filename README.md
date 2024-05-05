@@ -47,3 +47,6 @@ For a new dataset, prepare a [dataset_name]_labels.txt and [dataset_name]_senten
 The following is an example of the constructed text graph for the twitter dataset from [Text-GCN repository](https://github.com/codeKgu/Text-GCN/tree/master/data/corpus). Green represents text nodes and red represents document nodes.
 
 ![graph_example](https://github.com/JadenWSR/TextGraphSAGE/blob/main/figures/Text_Graph_Example.png)
+
+## Report
+Our project report can be found [here](https://github.com/JadenWSR/TextGraphSAGE/blob/main/Report/CPSC477_Final_Report.pdf).
