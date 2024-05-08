@@ -42,7 +42,7 @@ We included the Twitter asian prejudice dataset and Reuters 8 dataset in our [da
 Both datasets are also publicly accessible through the Text-GCN repository on  [GitHub](https://github.com/codeKgu/Text-GCN/tree/master). For our CNN and LSTM models, standard NLP data cleaning protocols are applied, including tokenization and filtering non-lexical items. For the TextGCN and TextGraphSAGE models, texts are further processed into a graph format as described in Section 4.2. This involves converting texts to nodes and edges in a graph, utilizing term frequency and document co-occurrence to weight the connections between nodes, thereby retaining semantic relationships within the data.
 
 
-For a new dataset, prepare a [dataset_name]_labels.txt and [dataset_name]_sentences.txt in /data/corpus in which each line corresponds to a document and its corresponding label. Use prep_data.py to further clean [dataset_name]_sentences.txt. The script will generate a [dataset_name]_sentences_clean.txt
+For a new dataset, prepare a [dataset_name]_labels.txt and [dataset_name]_sentences.txt in /data/corpus in which each line corresponds to a document and its corresponding label. Use prep_data.py to further clean [dataset_name]_sentences.txt. The script will generate a [dataset_name]_sentences_clean.txt. For Baseline CNN model, change the path of the read data fucntion in the code to the directory of your data set (the current file path is connecting to the personal google drive).
 
 The following is an example of the constructed text graph for the twitter dataset from [Text-GCN repository](https://github.com/codeKgu/Text-GCN/tree/master/data/corpus). Green represents text nodes and red represents document nodes.
 
